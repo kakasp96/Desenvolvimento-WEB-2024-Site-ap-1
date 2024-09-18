@@ -1,0 +1,40 @@
+.title{
+    text-align: center;
+}
+
+#btn-cadastro{
+    width: 50%;
+    background: #795548;
+    color: pink;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+input[type=text] ,select{
+    width: 100%;
+    padding: 10px 0 10px;
+    border-radius: 10px;
+}
+
+input[type=email] ,select{
+    width: 100%;
+    padding: 10px 0 10px;
+    border-radius: 10px;
+}
+
+input[type=password] ,select{
+    width: 100%;
+    padding: 10px 0 10px;
+    border-radius: 10px;
+}
+
+input[type=date] ,select{
+    width: 100%;
+    padding: 10px 0 10px;
+    border-radius: 10px;
+}
