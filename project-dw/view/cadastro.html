@@ -3,38 +3,90 @@
     <head>
         <body>
             <header>
-                <a href="index.html">Home</a>
-                <a href="index.html">Home</a>
+                
+                
+                
+               
                 <meta charset='utf-8'>
                 <title>Cadastro</title>
                 <link rel='stylesheet' type='text/css' media='screen' href='../css/cadastro.css'>
                 <script src='../script/cadastro.js'></script>
             </header>
             <section>
-                <h1 class="title"> Cadastra-se </h1>
-                <div>
-                    <form>
-                        <label for="name">Nome: </label>
-                        <input type="text" name="name" id="name"/>
+                <div class="home">
+               
+            </div>
+                <div class="container">
+                   
+                    <div class="form">
+                        <form>
+                        <div class="img">
+                            <img src="img/saopaulo.png" alt="" width="100px">
+                        </div>
+                        <div class="form-header">
+                            <div class="title">
+                                <h1>Cadastra-se</h1>
 
-                        <label for="email">E-mail: </label>
-                        <input type="email" name="email" id="email"/>
-
-                        <label for="password">Senha: </label>
-                        <input type="password" name="password" id="password"/>
-
-                        <label for="cpf_cnpj">CPF CNPJ: </label>
-                        <input type="text" name="cpf_cnpj" id="cpf_cnpj"/>
-
-                        <label for="birthday">Data de nascimento: </label>
-                        <input type="date" name="birthday" id="birthday"/>
-                        
-                        <label for="terms">Termos: </label>
-                        <input type="checkbox" name="terms" id="terms"/>
-                        
-                        <input id = "btn-cadastro" type="button" value="Cadastra-se" onclick="cadastro()"/>
-                    </form>
-                </div>
+                                
+                            </div><!--title-->
+                            
+                        </div><!--form-header-->
+                            <div class="input-group">
+                                <div class="inputs">
+                                <div class="input-box">
+                                    
+                                    
+                                  
+                                    <input type="text" name="name" id="name" class="inputtt" required />
+                                    <label for="nome-box">Nome</label>
+                                </div><!--input-box-->
+                                
+                                <div class="input-box">
+                                   
+                                    <input type="email" name="email" id="email" class="inputtt" required />
+                                    <label for="nome-box">E-mail</label>
+                                </div><!--input-box-->
+                                
+                                <div class="input-box">
+                                   
+                                    <input type="password" name="password" id="password" class="inputtt" required />
+                                    <label for="nome-box">Senha</label>
+                                </div><!--input-box-->
+                                
+                                <div class="input-box">
+                                   
+                                    <input type="text" name="cpf_cnpj" id="cpf_cnpj" class="inputtt" required />
+                                    <label for="nome-box">CPF/CNPJ</label>
+                                </div><!--input-box-->
+                                
+                            </div><!--inputs-->
+                            <div class="input-2">
+                                
+                                    <label for="birthday">Data de nascimento: </label>
+                                    <input type="date" name="birthday" id="birthday" />
+                                    
+                                
+                                
+                                    <label for="terms">Termos: </label>
+                                <input type="checkbox" name="terms" id="terms" />
+                            </div><!--input-2-->
+                            <!--input-box-->
+                            </div><!--input-group-->
+                           
+                            <div class="b">
+                                <input id = "btn-cadastro" type="button" value="Cadastra-se"  onclick="cadastro()"/>
+                                <!--<input type="text"><a href="#">continuar</a>-->
+                            </div><!--continue-bottom-->
+                            
+                            <div class="b">
+                                <a href="../index.html">
+                                    <button type="button">Voltar para o Início</button>
+                                </a>
+                            </div>
+                            
+                            </form>
+                            </div><!--form-->
+                </div><!--container-->
             </section>
         </body>
     </head>

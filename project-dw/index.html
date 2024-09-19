@@ -1,17 +1,88 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="css/index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
     <title>Document</title>
 </head>
 <body>
-    <div id="container">
-        <header>H</header>
-        <main>M</main>
-        <aside>A</aside>
-        <footer>F</footer>
-    </div>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="fotos/saopaulo.png" alt="saopaulo" width="100px" >
+                </a>
+            </div><!--Logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li>
+                        <a href="#">Início</a>
+                    </li>
+                    <li>
+                        <a href="#">Especialidades</a>
+                    </li>
+                    <li>
+                        <a href="#">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#">Projeto</a>
+                    </li>
+                </ul>
+
+            </nav>
+
+            <div class="btn-contato">
+                <a href="view/cadastro.html">
+                    <button>
+                        Cadastre-se
+                    </button>
+                </a>
+            </div><!--btn-contato-->
+
+        </div><!--interface-->
+
+    </header>
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>SEJA SÓCIO TORCEDOR<span>.</span></h1>
+                        <p>TODOS OS PRINCIPAIS MOMENTOS DA NOSSA HISTÓRIA ESTÃO DIRETAMENTE ATRELADOS À MOBILIZAÇÃO DE NOSSOS TORCEDORES EM TORNO DO IDEAL DE CONSTRUIR UM SÃO PAULO MAIS FORTE, ÍNTEGRO E VENCEDOR.    </p>
+                        
+                        <div class="btn-contato">
+                            <a href="#">
+                                <button>Entre em Contato</button>
+                            </a>
+                        </div><!--txt-topo-site-->
+                        </div> <!--btn-contato-->
+                        <div class="img-topo-site">
+                            <img src="fotos/mundial.png" alt="">
+                        </div><!--img-topo-site-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+        <section class="portfolio">
+            <div class="interface">
+                <h2 class="titulo">
+                    Beneficios do <span>SÓCIO TORCEDOR.</span>
+                </h2><!--titulo-->
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(fotos/arquibancada.png);">
+                        <div class="overlay">Desconto nos Ingressos</div>
+                    </div><!--img-port-->
+                    <div class="img-port" style="background-image: url(fotos/camisa.png)">
+                        <div class="overlay">Desconto em roupas</div>
+                    </div><!--img-port-->
+                    <div class="img-port" style="background-image: url(fotos/torcida.png)">
+                        <div class="overlay">Ver o jogo mais perto</div>
+                    </div><!--img-port-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--portfolio-->
+    </main>
+    
 </body>
 </html>
